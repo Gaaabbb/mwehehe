@@ -1,0 +1,64 @@
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, sans-serif;
+    font-size: 1.3rem;
+    user-select: none;
+}
+
+body {
+    margin:0;
+    height:100vh; 
+    display:flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 75%;
+    text-align: center;
+}
+
+#penguin {
+    margin-bottom: 1em;
+    height: 120px
+}
+
+#toothless {
+    height: 200px;
+    display: none;
+    position: absolute;
+    margin-top: 500px;
+}
+
+#question {
+    margin-bottom: 3em;
+}
+
+.answer {
+    display: flex;
+    align-items: flex-start;
+    gap: 3em;
+}
+
+#yes, #no {
+    font-size: 1.1rem;
+    padding: 15px;
+    background-color: rgb(228, 79, 79);
+}
+
+#yes {
+    background-color: rgb(50, 199, 62);
+}
+
